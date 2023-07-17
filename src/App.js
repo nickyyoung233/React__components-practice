@@ -8,22 +8,22 @@ import ConceptItems from "./components/CardContents/ConceptItems";
 
 const concepts = [
   {
-    title: "Components",
+    title: "组件",
     image: componentsImage,
     description:
-      "Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Components can receive data via props, and they can render dynamic output using JSX.",
+      "组件允许您将UI拆分为独立的、可重用的部分，并单独考虑每个部分。组件可以通过props接收数据，并且可以使用JSX呈现动态输出.",
   },
   {
-    title: "State",
+    title: "状态",
     image: stateImage,
     description:
-      "State is data that may change over time. As it changes, the UI should be updated to reflect the updated data. Each component can maintain its own state and multiple components can share state.",
+      "状态是可能随时间变化的数据。当它发生变化时，应该更新UI以反映更新的数据。每个组件可以维护自己的状态，多个组件可以共享状态.",
   },
   {
-    title: "Events",
+    title: "事件",
     image: eventsImage,
     description:
-      "Event handlers are added via props to (built-in) components. You pass functions as values to such event handlers to control which functions gets executed for which event.",
+      "事件处理程序是通过props添加到(内置)组件的。将函数作为值传递给这些事件处理程序，以控制哪个函数针对哪个事件执行.",
   },
 ];
 
