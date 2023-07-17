@@ -1,4 +1,3 @@
-import keyConceptsImage from "./assets/images/key-concepts.png";
 import componentsImage from "./assets/images/components.png";
 import stateImage from "./assets/images/state.png";
 import eventsImage from "./assets/images/events.png";
@@ -31,7 +30,7 @@ const concepts = [
 function App() {
   return (
     <div>
-      <Header img={keyConceptsImage} />
+      <Header />
       <FlexBox className="concepts">
         <ConceptItems
           img={concepts[0].image}
